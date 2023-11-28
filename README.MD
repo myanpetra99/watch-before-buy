@@ -1,5 +1,7 @@
 # WATCH BEFORE BUY Chrome Extension
 
+![icon](src/icon.png)
+
 ## Overview
 
 The **WATCH BEFORE BUY** Chrome extension transforms your online shopping experience by providing direct access to product review videos without leaving the e-commerce product page. This extension currently supports various popular e-commerce platforms, enabling users to click on a video icon and seamlessly redirect to YouTube videos for a more engaging and informed buying decision.
