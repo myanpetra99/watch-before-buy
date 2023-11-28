@@ -4,6 +4,11 @@
 
 The **WATCH BEFORE BUY** Chrome extension transforms your online shopping experience by providing direct access to product review videos without leaving the e-commerce product page. This extension currently supports various popular e-commerce platforms, enabling users to click on a video icon and seamlessly redirect to YouTube videos for a more engaging and informed buying decision.
 
+## Screenshot
+![Tokopedia](https://i.postimg.cc/Twv7WgkD/Screenshot-2023-11-28-at-16-16-15.png)
+![Shopee](https://i.postimg.cc/xdzpCtPQ/Screenshot-2023-11-28-at-16-22-31.png)
+![Amazon](https://i.postimg.cc/Y25N3YYn/Screenshot-2023-11-28-at-16-26-15.png)
+
 ## Features
 
 - **Direct YouTube Video Access**: Allows users to click on a video icon to access reviews directly from YouTube.
