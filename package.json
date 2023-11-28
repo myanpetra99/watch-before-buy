@@ -2,7 +2,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite",
-		"build": "vite build && cp src/manifest.json 'dist/'",
+		"build": "vite build && cp src/manifest.json 'dist/' && cp src/assets/* 'dist/'",
 		"preview": "vite preview"
 	},
 	"dependencies": {
