@@ -1,7 +1,7 @@
 const listStore = [{
     storeName: 'tokopedia',
-    targetQuery: '#pdp_comp-variant_options',
-    mode: 'potrait',
+    targetQuery: '#pdp_comp-product_detail',
+    mode: 'landscape',
 },
 {
     storeName: 'shopee',
