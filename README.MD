@@ -53,7 +53,7 @@ Soon, you will be able to log in with your Google account to use your personaliz
 
 | Store Name | Target Query | Mode      |
 |------------|--------------|-----------|
-| Tokopedia  | `#pdp_comp-variant_options` | Portrait  |
+| Tokopedia  | `#pdp_comp-product_detail` | Landscape  |
 | Shopee     | `.product-detail.page-product__detail` | Landscape |
 | Bukalapak  | `.c-main-product__scan.c-main-product__separator` | Portrait |
 | Lazada     | `.pdp-block.pdp-block__main-information` | Landscape |
@@ -65,7 +65,10 @@ Soon, you will be able to log in with your Google account to use your personaliz
 
 ## Contribution
 
-Contributions are welcome! If you encounter any issues, have suggestions, or want to add support for more e-commerce platforms, feel free to create a pull request or open an issue.
+Contributions are welcome! If you encounter any issues, have suggestions, or want to add support for more e-commerce platforms, feel free to create a pull request or open an issue
+1. directly change the src/store.ts
+2. change the Readme.MD (Supported E-commerce Platforms section)
+
 
 ## License
 
