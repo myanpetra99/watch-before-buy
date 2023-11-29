@@ -4,10 +4,7 @@
     "version": "0.1",
     "description": "Watch Before Buy",
     "permissions": [
-      "activeTab",
-      "contextMenus",
       "webNavigation",
-      "storage",
       "tabs"
     ],
     "action": {
