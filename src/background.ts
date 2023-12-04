@@ -19,7 +19,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   console.log("web loaded");
   const [res, sel, mode] = matchStore(url.hostname);
   if (res) {
-    console.log("isTokopedia", res);
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
       var activeTab = tabs[0];
       console.log("send message to content script");

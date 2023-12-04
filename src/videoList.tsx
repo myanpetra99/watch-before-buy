@@ -111,7 +111,9 @@ const VideoList = (props: VideoListProps) => {
           isDropdownOpen ? "" : "hidden"
         } overflow-hidden z-10 shadow-md !bg-gray-200 p-5 rounded-md`}
       >
-        <p className="!text-black !text-center !text-sm !font-light">
+        {videoList?.items.length > 0 ? (
+         <div>
+           <p className="!text-black !text-center !text-lg !font-light mb-5">
           Showing {videoList?.items.length} review videos 👇
         </p>
        <div className={`max-h-[50vh] h-fit overflow-auto flex ${mode == 'potrait'? 'flex-col': 'flex-row'}`}>
@@ -138,6 +140,12 @@ const VideoList = (props: VideoListProps) => {
           </a>
         ))}
        </div>
+          </div>
+        ): (
+          <p className="!text-black !text-center !font-light text-lg">
+          No review videos found 😢 <br></br> <span className="font-light text-sm"> if you think this is a mistakes <span className="underline hover:cursor-pointer">(contact us)</span></span>
+        </p>
+        )}
       </div>
     </div>
   );

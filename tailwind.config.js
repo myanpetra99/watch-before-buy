@@ -8,5 +8,9 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    {
+      'postcss-parent-selector': { selector: '#watchBeforeBuy' }
+    }
+  ],
 };

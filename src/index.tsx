@@ -1,5 +1,6 @@
 import VideoList from "./videoList";
 import { WebHandler } from "./handler";
+import { render } from "preact";
 
 interface message {
   action: string;
@@ -14,3 +15,4 @@ chrome.runtime.onMessage.addListener((message: message) => {
     WebHandler(message.selector, <VideoList mode={message.mode} />);
   }
 });
+
