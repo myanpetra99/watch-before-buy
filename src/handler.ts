@@ -5,6 +5,7 @@ export function WebHandler(Selector:string ,VideoList:preact.ComponentChild) {
     const parent = document.querySelector(Selector);
     const div = document.createElement("div");
     div.setAttribute("id", "watchBeforeBuyContainer");
+    div.setAttribute("style", "z-index: 99; position:relative;");
     parent.prepend(div);
     waitForElm(Selector).then((elm) => {
       const actionbar = document.querySelector(Selector);

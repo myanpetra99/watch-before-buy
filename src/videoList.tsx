@@ -79,7 +79,7 @@ const VideoList = (props: VideoListProps) => {
   }, []);
 
   return (
-    <div id="watchBeforeBuy" class="w-50 my-12">
+    <div id="watchBeforeBuy" class="w-50 my-12 ">
       <button
         onClick={toggleDropdown}
         id="dropdownDefaultButton"
@@ -143,7 +143,9 @@ const VideoList = (props: VideoListProps) => {
           </div>
         ): (
           <p className="!text-black !text-center !font-light text-lg">
-          No review videos found 😢 <br></br> <span className="font-light text-sm"> if you think this is a mistakes <span className="underline hover:cursor-pointer">(contact us)</span></span>
+          No review videos found 😢 <br></br> <span className="font-light text-sm"> if you think this is a mistakes <a href="mailto:hello.michaelyanpetra@gmail.com?subject=Watch%20Before%20Buy%20Chrome%20Extension%20Issue&body=Hello%2C%20I'd%20like%20to%20contact%20you%20about%20the%20problem%20I%20have%20with%20Watch%20Before%20Buy%20Chrome%20extension">
+    (contact us)
+  </a></span>
         </p>
         )}
       </div>
