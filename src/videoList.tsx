@@ -114,7 +114,7 @@ const VideoList = (props: VideoListProps) => {
         {videoList?.items.length > 0 ? (
          <div>
            <p className="!text-black !text-center !text-lg !font-light mb-5">
-          Showing {videoList?.items.length} review videos 👇
+          Showing {videoList?.items.length} related review videos 👇
         </p>
        <div className={`max-h-[50vh] h-fit overflow-auto flex ${mode == 'potrait'? 'flex-col': 'flex-row'}`}>
        {videoList?.items.map((item) => (
