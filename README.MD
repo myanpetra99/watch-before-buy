@@ -45,9 +45,20 @@ In the future, the extension is planned to include support for additional review
 3. Click on the video icon to be redirected to YouTube videos for the product reviews.
 4. Engage with the reviews directly on YouTube to make more informed purchase decisions.
 
-## OAuth Integration (Coming Soon)
 
-Soon, you will be able to log in with your Google account to use your personalized API key. This feature will enhance your experience by providing more relevant and accurate information.
+### TODO
+
+- [x] UI
+- [x] Fetch Product Name
+- [x] Element Selector for each site
+- [ ] Element selector CRUD Online/Local (Allow user to change element from CRUD Instead modifying the hardcoded element on store.ts)
+- [ ] Oauth Integration ( This feature will enhance your experience by providing more relevant and accurate information.)
+- [ ] Price Comparison (Idk about this, but cool concept)
+
+
+
+
+
 
 ## Supported E-commerce Platforms
 
@@ -66,7 +77,7 @@ Soon, you will be able to log in with your Google account to use your personaliz
 ## Contribution
 
 Contributions are welcome! If you encounter any issues, have suggestions, or want to add support for more e-commerce platforms, feel free to create a pull request or open an issue
-1. directly change the src/store.ts
+1. directly change the src/store.ts --> soon will be changed
 2. change the Readme.MD (Supported E-commerce Platforms section)
 
 
