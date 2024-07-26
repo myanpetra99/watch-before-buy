@@ -1,5 +1,6 @@
 export  function getProductName(){
-    return  document.title
+    const titleElement = document.querySelector('h1');
+    return titleElement ? titleElement.textContent.trim() : document.title;
  }
 
  export async function getVideoList(string:string){
