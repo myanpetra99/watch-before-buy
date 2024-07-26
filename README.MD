@@ -14,7 +14,6 @@ The **WATCH BEFORE BUY** Chrome extension transforms your online shopping experi
 ## Features
 
 - **Direct YouTube Video Access**: Allows users to click on a video icon to access reviews directly from YouTube.
-- **OAuth Integration (Coming Soon)**: Users will soon be able to log in with their Google account and use their own API key for a personalized experience.
 - **Supported E-commerce Platforms**: Currently supports the following e-commerce platforms:
   - Tokopedia
   - Shopee
@@ -26,9 +25,17 @@ The **WATCH BEFORE BUY** Chrome extension transforms your online shopping experi
   - Alibaba
   - Walmart
 
-## Future Development
 
-In the future, the extension is planned to include support for additional review platforms, such as TikTok, to provide users with a diverse range of reviews from various sources.
+
+### TODO
+
+- [x] UI
+- [x] Fetch Product Name
+- [x] Element Selector for each site
+- [ ] Element selector CRUD Online/Local (Allow user to change element from CRUD Instead modifying the hardcoded element on store.ts)
+- [ ] support more platform such as Tiktok/ any other video platform
+- [ ] Oauth Integration ( This feature will enhance your experience by providing more relevant and accurate information.)
+- [ ] Price Comparison (Idk about this, but cool concept)
 
 ## Installation
 
@@ -44,18 +51,6 @@ In the future, the extension is planned to include support for additional review
 2. Look for the video icon on the page.
 3. Click on the video icon to be redirected to YouTube videos for the product reviews.
 4. Engage with the reviews directly on YouTube to make more informed purchase decisions.
-
-
-### TODO
-
-- [x] UI
-- [x] Fetch Product Name
-- [x] Element Selector for each site
-- [ ] Element selector CRUD Online/Local (Allow user to change element from CRUD Instead modifying the hardcoded element on store.ts)
-- [ ] Oauth Integration ( This feature will enhance your experience by providing more relevant and accurate information.)
-- [ ] Price Comparison (Idk about this, but cool concept)
-
-
 
 
 
