@@ -1,18 +1,7 @@
-// chrome.webNavigation.onCompleted.addListener(function (details) {
-//   console.log("web loaded", details);
-//     const url = new URL(details.url);
-//     const isTokopedia =
-//       url.hostname.includes("tokopedia.com");
-//     if (isTokopedia) {
-//       console.log("isTokopedia", isTokopedia);
-//       chrome.tabs.sendMessage(details.tabId, {
-//         action: "embedTokopediaProductPage",
-//       });
-//       console.log("send message to content script");
-//     }
-//   });
+import { matchStore, fetchStores } from "./store";
 
-import { matchStore } from "./store";
+// Fetch the store data when the extension is initialized
+fetchStores();
 
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   const url = new URL(tab.url);

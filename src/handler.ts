@@ -1,11 +1,12 @@
 import { waitForElm } from "./utils";
 import { render } from "preact";
 
-export function WebHandler(Selector:string ,VideoList:preact.ComponentChild) {
-    const parent = document.querySelector(Selector);
-    const div = document.createElement("div");
-    div.setAttribute("id", "watchBeforeBuyContainer");
-    div.setAttribute("style", "z-index: 99; position:relative;");
+export function WebHandler(Selector: string, VideoList: preact.ComponentChild) {
+  const parent = document.querySelector(Selector);
+  const div = document.createElement("div");
+  div.setAttribute("id", "watchBeforeBuyContainer");
+  div.setAttribute("style", "z-index: 99; position:relative;");
+  if (parent) {
     parent.prepend(div);
     waitForElm(Selector).then((elm) => {
       const actionbar = document.querySelector(Selector);
@@ -16,12 +17,14 @@ export function WebHandler(Selector:string ,VideoList:preact.ComponentChild) {
         if (!actionbar.querySelector("#watchBeforeBuy")) {
           render(VideoList, div);
           console.log(" render done ");
-        }else{ 
+        } else {
           console.log(" already exist ");
         }
       } else {
         console.log(" parent not found ");
       }
     });
-
+  }else {
+    console.log("orphan")
+  }
 }
