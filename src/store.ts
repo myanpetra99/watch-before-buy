@@ -23,14 +23,14 @@ export interface Store {
   }
   
   export function matchStore(url: string): [boolean, string, string] {
-    console.log('matching store ', url);
+    
     let boolean: boolean = false;
     let query: string = '';
     let mode: string = '';
   
     const matchedStore = listStore.find((store) => {
       boolean = url.includes(store.storeName);
-      console.log('matching', url, 'with', store, 'result');
+      
       return boolean; // Return a boolean value indicating if a match is found
     });
   

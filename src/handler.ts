@@ -13,18 +13,18 @@ export function WebHandler(Selector: string, VideoList: preact.ComponentChild) {
 
       // Check if the button already exists
       if (actionbar.querySelector("#watchBeforeBuyContainer")) {
-        console.log(" parent found ");
+        
         if (!actionbar.querySelector("#watchBeforeBuy")) {
           render(VideoList, div);
-          console.log(" render done ");
+          
         } else {
-          console.log(" already exist ");
+          
         }
       } else {
-        console.log(" parent not found ");
+        
       }
     });
   }else {
-    console.log("orphan")
+    
   }
 }
