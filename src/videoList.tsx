@@ -63,18 +63,13 @@ const VideoList = (props: VideoListProps) => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
-  useEffect(() => {
-    console.log("useEffect");
-    async function fetchAPI() {
-      console.log("fetchAPI");
-      const productName = getProductName();
-      console.log(productName);
-      const videoData = await getVideoList(productName);
-      setVideoList(videoData);
-      console.log(videoData);
-      console.log("fetchAPI end");
-    }
+  async function fetchAPI() {
+    const productName = getProductName();
+    const videoData = await getVideoList(productName);
+    setVideoList(videoData);
+  }
 
+  useEffect(() => {
     fetchAPI();
   }, []);
 
