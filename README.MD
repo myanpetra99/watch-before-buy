@@ -1,5 +1,7 @@
 # WATCH BEFORE BUY Chrome Extension
-
+ <style>
+img{width: 50%;}
+</style>
 ![icon](src/icon.png)
 
 ## Overview
