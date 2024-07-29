@@ -31,8 +31,8 @@ The **WATCH BEFORE BUY** Chrome extension transforms your online shopping experi
 
 - [x] UI
 - [x] Fetch Product Name
-- [x] Element Selector for each site
-- [ ] Element selector CRUD Online/Local (Allow user to change element from CRUD Instead modifying the hardcoded element on store.ts)
+- [x] Element Selector for each site (Currently updated via Contentful API)
+- [ ] Element selector CRUD Local (Allow user to change element from CRUD Instead modifying the hardcoded element on store.ts)
 - [ ] support more platform such as Tiktok/ any other video platform
 - [ ] Oauth Integration ( This feature will enhance your experience by providing more relevant and accurate information.)
 - [ ] Price Comparison (Idk about this, but cool concept)
